@@ -17,7 +17,7 @@ spec:
         image: huy1219/hello-world:TAG
         resources:
           limits:
-            memory: "128Mi"
-            cpu: "500m"
+            memory: "50Mi"
+            cpu: "100m"
         ports:
         - containerPort: 8080
