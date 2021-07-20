@@ -11,5 +11,5 @@ jobs:
     - name: Sync apps
       uses: clowdhaus/argo-cd-action/@main
       with:
-        command: version
-        options: --client
+        command: login 34.132.171.46 
+        options: --insecure --username admin --password dMQnvoJJrKwZbuHD
