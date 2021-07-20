@@ -1,0 +1,15 @@
+name: GitOps
+
+on:
+  push:
+    branches:
+    - main
+jobs:
+  sync-apps:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Sync apps
+      uses: clowdhaus/argo-cd-action/@main
+      with:
+        command: version
+        options: --client
