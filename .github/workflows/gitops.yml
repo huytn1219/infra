@@ -16,4 +16,4 @@ jobs:
     - name: Sync apps
       uses: clowdhaus/argo-cd-action/@main
       with:
-        command: argocd app sync go-app
+        command: app sync go-app
