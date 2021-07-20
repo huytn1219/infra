@@ -7,4 +7,4 @@ resources:
 
 images:
 - name: huy1219/hello-world
-  newTag: b936aaab4b8ded8fedc69cc422d85aa9e2ebd9c2
+  newTag: 4956cfed9a352f5ad7d74bbb31f9611e0119edb0
